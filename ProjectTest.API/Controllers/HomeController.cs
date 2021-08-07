@@ -18,7 +18,7 @@ namespace ProjectTest.API.Controllers
         public string Get()
         {
             _logger.LogInformation("Initial Home Get");
-            return "Net Core 5.0 Running ... 24072021-v1.0.0 Azure DevOps AFORO255 changed";
+            return "Net Core 5.0 Running ... 24072021-v1.0.0 Azure DevOps AFORO255 changed today";
         }
     }
 }
