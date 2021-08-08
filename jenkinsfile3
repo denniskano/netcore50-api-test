@@ -3,7 +3,7 @@ import groovy.json.JsonSlurper
 node {
     ws('netcore') {
         stage('SCM') {
-            git branch: 'main', url: 'https://github.com/Stywar/netcore50-api-test'           
+            git branch: 'main', url: 'https://github.com/denniskano/netcore50-api-test'           
         }
         stage('Build') {
             dotnet_build();
